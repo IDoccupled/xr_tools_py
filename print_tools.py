@@ -10,7 +10,8 @@ def printyellow(text):
 def printblue(text):
     print(f"\033[94m{text}\033[0m")
 
-printgreen("This is green text.")
-printred("This is red text.")
-printyellow("This is yellow text.")
-printblue("This is blue text.")
+if __name__ == "__main__":
+    printgreen("This is green text.")
+    printred("This is red text.")
+    printyellow("This is yellow text.")
+    printblue("This is blue text.")
